@@ -30,7 +30,7 @@ MORSE_MAP = {
 def decode_char(char)
   MORSE_MAP.each do |key, value|
     return key.upcase if value == char
-  end  
+  end
 end
 
 def decode_word(word)
@@ -39,7 +39,7 @@ def decode_word(word)
   new_arr.each do |value|
     new_word += decode_char(value)
   end
-  new_word  
+  new_word
 end
 
 def decode_morse_code(text)
@@ -48,8 +48,9 @@ def decode_morse_code(text)
   new_arr.each do |value|
     new_sentence += "#{decode_word(value)} "
   end
-  # new_sentence.strip
-  new_sentence
+  new_sentence.strip
 end
 
 puts decode_morse_code('-- -.-- -. .- -- .')
+
+puts decode_morse_code('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...')
