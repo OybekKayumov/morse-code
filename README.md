@@ -30,8 +30,8 @@ Clone the repository from this [link](https://github.com/OybekKayumov/morse-code
 
 👤 **Linda Keza**
 - GitHub: [@keza681](https://github.com/keza681)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+- Twitter: [@LKeza19](https://twitter.com/LKeza19)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/linda-keza/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
