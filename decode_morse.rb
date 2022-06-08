@@ -33,3 +33,12 @@ def decode_char(char)
   end  
 end
 
+def decode_word(word)
+  new_word = ''
+  new_arr = word.split
+  new_arr.each do |value|
+    new_word += decode_char(value)
+  end
+  new_word  
+end
+
