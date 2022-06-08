@@ -51,3 +51,5 @@ def decode_morse_code(text)
   # new_sentence.strip
   new_sentence
 end
+
+puts decode_morse_code('-- -.-- -. .- -- .')
