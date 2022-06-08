@@ -42,3 +42,12 @@ def decode_word(word)
   new_word  
 end
 
+def decode_morse_code(text)
+  new_sentence = ''
+  new_arr = text.split('  ')
+  new_arr.each do |value|
+    new_sentence += "#{decode_word(value)} "
+  end
+  # new_sentence.strip
+  new_sentence
+end
